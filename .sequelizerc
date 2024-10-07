@@ -1,0 +1,9 @@
+import { resolvsequelize init
+    e } from "path";
+
+export default {
+  config: path.resolve("./app/config", "configDatabase.json"),
+  "models-path": resolve("./app/models"),
+  "seeders-path": resolve("./app/seeders"),
+  "migrations-path": resolve("./app/migrations"),
+};
